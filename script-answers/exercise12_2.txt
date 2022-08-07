@@ -1,0 +1,10 @@
+Script started on 2022-08-07 14:07:19+08:00 [TERM="screen-256color" TTY="/dev/pts/12" COLUMNS="179" LINES="44"]
+[01;32mivan@DESKTOP-F5QHRFM[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker run -it ubuns[Ktu bash
+[?2004h]0;root@2384d22dbea3: /root@2384d22dbea3:/# cat /usr/src/app[1P[1P[1P[1@m[1@k[1@d[1@i[1@r
+[?2004l[?2004h]0;root@2384d22dbea3: /root@2384d22dbea3:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@2384d22dbea3: /root@2384d22dbea3:/# [Kexit
+[?2004lexit
+[01;32mivan@DESKTOP-F5QHRFM[00m:[01;34m~/part12-containers-applications/script-answers[00m$ exit
+exit
+
+Script done on 2022-08-07 14:08:37+08:00 [COMMAND_EXIT_CODE="0"]
