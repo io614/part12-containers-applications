@@ -1,0 +1,118 @@
+Script started on 2022-08-07 21:22:46+08:00 [TERM="screen-256color" TTY="/dev/pts/6" COLUMNS="193" LINES="47"]
+[01;32mivan@DESKTOP-F5QHRFM[00m:[01;34m~/part12-containers-applications/script-answers[00m$ exitdocker exec -it todo-backend_mongo_1 mongo -u -root -p example
+MongoDB shell version v5.0.10
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Error: Authentication failed. :
+connect@src/mongo/shell/mongo.js:372:17
+@(connect):2:6
+exception: connect failed
+exiting with code 1
+[01;32mivan@DESKTOP-F5QHRFM[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it todo-backend_mongo_1 mongo -u -root -p exampleexit[Kdocker exec -it todo-backend_mongo_1 mongo -u -root -p exampleps[Ktm[Kdocker psexec -it todo-backend_mongo_1 mongo -u -root -p exampleexit[Kdocker exec -it todo-backend_mongo_1 mongo -u -root -p example[Kdocker exec -it todo-backend_mongo_1 mongo -u -root -p example
+MongoDB shell version v5.0.10
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Error: Authentication failed. :
+connect@src/mongo/shell/mongo.js:372:17
+@(connect):2:6
+exception: connect failed
+exiting with code 1
+[01;32mivan@DESKTOP-F5QHRFM[00m:[01;34m~/part12-containers-applications/script-answers[00m$ [K[J[6n
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G
+[G[?1000h[17A[G[K[6n[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [1B[;m                                                                                                                                                                                                 [;m                                                                                                                                                                                                 [;1;38;5;110m> [m[;1m[m[;1m[m[1A[;m                                                                                                                                                                                                 [2C[;38;5;144m523/523 +S[m[1B[2C[1A[;m                                                                                                                                                                                                 [2C[;38;5;144m523/523 +S[m[16A[;1;38;5;161;48;5;236m [m[;m [;m1967    docker network ls[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1968    iptables[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1969    tldr iptables[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1970    tldr iptables [m[1B[;1;38;5;161;48;5;236m [m[;m [;m1971    sudo iptables -vnL[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1972    docker exec -it <mysql-container-id> mysql -u root -p[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1973    docke ps[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1975    docker exec -it hopeful_colden mysql -u root -p[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1976    docker exec -it hopeful_colden mysql -p todos[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1977    echo "hello world"[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1979    docker run -it ubuntu bash[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1983    docker start -i elated_grothendieck [m[1B[;1;38;5;161;48;5;236m [m[;m [;m1985    tm[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1986    docker ps[m[1B[;1;38;5;161;48;5;236m [m[;m [;m1988    exit[m[1B[;1;38;5;161;48;5;236m>[m[;1;38;5;168;48;5;236m [m[;1;38;5;254;48;5;236m1989    docker exec -it todo-backend_mongo_1 mongo -u -root -p example[m[2B[2C[2C[17A[J[?1000l[01;32mivan@DESKTOP-F5QHRFM[00m:[01;34m~/part12-containers-applications/script-answers[00m$ docker exec -it todo-backend_mongo_1 mongosh -u root -p example
+]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	62efbcd1b43c07869d37d4e3
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.4[0m
+Using MongoDB:		5.0.10
+[1m[33mUsing Mongosh[0m:		1.5.4
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2022-08-07T08:51:08.632+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2022-08-07T08:51:09.468+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+[1m[33m------[0m
+
+[1m[33m------[0m
+   Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+   metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+   
+   The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+   and anyone you share the URL with. MongoDB may use this information to make product
+   improvements and to suggest MongoDB products and deployment options to you.
+   
+   To enable free monitoring, run the following command: db.enableFreeMonitoring()
+   To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+[1m[33m------[0m
+
+[1m[33mWarning: Found ~/.mongorc.js, but not ~/.mongoshrc.js. ~/.mongorc.js will not be loaded.
+  You may want to copy or rename ~/.mongorc.js to ~/.mongoshrc.js.
+[0m[1G[0Jtest> [7Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         72.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   56.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.to
+db.toLocaleString  db.toString        db.todos
+
+[1G[0Jthe_database> db.to[20Gdos.find({})
+[
+  {
+    _id: ObjectId("62ef6fe56955d6c7b6c1c53b"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("62ef6fe56955d6c7b6c1c53c"),
+    text: [32m'new text'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insert
+db.todos.insertMany  db.todos.insertOne
+
+[1G[0Jthe_database> db.todos.insert[30GOne({ [32m"[39m[32mt[39m[32me[39m[32mx[39m[32mt[39m[32m"[39m:  [32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m, [32m"[39m[32md[39m[32mo[39m[32mn[39m[32me[39m[32m"[39m: [32m"[39m[1G[0Jthe_database> db.todos.insertOne({ [32m"text"[39m:  [32m"Increase the number of tools in my toolbelt"[39m, [32m"done"[39m: [100Gfals[33mfalse[39m})
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId("62efbd3c3bb08914ed7c05d6")
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({ [32m"text"[39m:  [32m"Increase the number of tools in my toolbelt"[39m, [32m"done"[39m: [33mfalse[39m})[107G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId("62ef6fe56955d6c7b6c1c53b"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("62ef6fe56955d6c7b6c1c53c"),
+    text: [32m'new text'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("62efbd3c3bb08914ed7c05d6"),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15G
+[01;32mivan@DESKTOP-F5QHRFM[00m:[01;34m~/part12-containers-applications/script-answers[00m$ exit
+exit
+
+Script done on 2022-08-07 21:26:00+08:00 [COMMAND_EXIT_CODE="0"]
